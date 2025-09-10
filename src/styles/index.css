@@ -10,44 +10,27 @@
 
 */
 #Box{
+    width: 160px;
+    height: 560px;
+}
+
+
+#container2{
+    border: 1px solid black;
     background-color: black;
-    color: white;
-    width: 180px;
-    height: 550px;
     border-radius: 10px;
-}
-
-#wtf{
-    border: 1px solid red;
-    background-color: red;
-}
-
-.container{
-    border: 1px solid red;
 }
 #left {
     background-color: white;
+    height: 150px;
 }
 #right{
     background-color: white;
 }
 
-#Box >div{
-    height: 150px;
-}
-
-#lights{
-    display: flex;
-    position: absolute;
-}
-
-#superior{
-    border: 1px solid blue;
-}
 
 #red{
     position: relative;
-    /* border: 1px solid white; */
     margin: auto;
     height: 120px;
     width: 120px;
@@ -57,9 +40,12 @@
     background-color: red;
 }
 
+#middle{
+    background-color: black;
+}
+
 #orange{
     position: relative;
-    /* border: 1px solid white; */
     margin: auto;
     height: 120px;
     width: 120px;
@@ -70,15 +56,13 @@
 
 #green{
    position: relative;
-    /* border: 1px solid white; */
     margin: auto;
     height: 120px;
     width: 120px;
     border-radius: 100%;
     background-color: green;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
 }
 
-#Lights{
-    /* border: 1px solid red; */
-}
 
