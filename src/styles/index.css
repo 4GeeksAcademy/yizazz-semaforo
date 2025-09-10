@@ -9,3 +9,76 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+#Box{
+    background-color: black;
+    color: white;
+    width: 180px;
+    height: 550px;
+    border-radius: 10px;
+}
+
+#wtf{
+    border: 1px solid red;
+    background-color: red;
+}
+
+.container{
+    border: 1px solid red;
+}
+#left {
+    background-color: white;
+}
+#right{
+    background-color: white;
+}
+
+#Box >div{
+    height: 150px;
+}
+
+#lights{
+    display: flex;
+    position: absolute;
+}
+
+#superior{
+    border: 1px solid blue;
+}
+
+#red{
+    position: relative;
+    /* border: 1px solid white; */
+    margin: auto;
+    height: 120px;
+    width: 120px;
+    border-radius: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: red;
+}
+
+#orange{
+    position: relative;
+    /* border: 1px solid white; */
+    margin: auto;
+    height: 120px;
+    width: 120px;
+    border-radius: 100%;
+    margin-bottom: 10px;
+    background-color: orange;
+}
+
+#green{
+   position: relative;
+    /* border: 1px solid white; */
+    margin: auto;
+    height: 120px;
+    width: 120px;
+    border-radius: 100%;
+    background-color: green;
+}
+
+#Lights{
+    /* border: 1px solid red; */
+}
+
