@@ -29,7 +29,7 @@
 }
 
 
-#red{
+.light.red{
     position: relative;
     margin: auto;
     height: 120px;
@@ -37,32 +37,44 @@
     border-radius: 100%;
     margin-top: 10px;
     margin-bottom: 10px;
-    background-color: red;
+    background-color: darkred;
 }
 
 #middle{
     background-color: black;
 }
 
-#orange{
+.light.orange{
     position: relative;
     margin: auto;
     height: 120px;
     width: 120px;
     border-radius: 100%;
     margin-bottom: 10px;
-    background-color: orange;
+    background-color: darkorange;
 }
 
-#green{
+.light.green{
    position: relative;
     margin: auto;
     height: 120px;
     width: 120px;
     border-radius: 100%;
-    background-color: green;
+    background-color: darkgreen;
     padding-bottom: 5px;
     margin-bottom: 5px;
 }
 
 
+.light.red.on{
+    background-color: red;
+    box-shadow: 1px -2px 55px 12px red;
+}
+.light.orange.on{
+    background-color: orange;
+    box-shadow: 1px -2px 55px 12px orange;
+}
+.light.green.on{
+    background-color: green;
+    box-shadow: 1px -2px 55px 12px green;
+}
